@@ -1,0 +1,20 @@
+@namespace url("http://www.w3.org/1999/xhtml");
+
+@-moz-document url("about:home"),url("about:blank"),url("about:blanktab"),url("about:newtab"),url("about:privatebrowsing"){
+  body{background-color: #28272C !important;}
+}
+
+
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/content/auto_devtools_theme.css made available under Mozilla Public License v. 2.0
+See the above repository for updates as well as full license text. */
+
+/* Make devtools use dark theme if your OS is in dark mode. Set devtools to Light-theme for this style to work */
+/* For Responsive Design Mode you need to use ../chrome/auto_devtools_theme_for_rdm.css in userChrome.css */
+
+@-moz-document url("about:devtools-toolbox"), url-prefix("chrome://devtools/content/"){
+  @media(prefers-color-scheme: dark){
+    :root {
+      --theme-body-font-size:14px !important;
+      --theme-code-font-size:14px !important;
+ }
+}
