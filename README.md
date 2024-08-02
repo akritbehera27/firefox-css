@@ -1,8 +1,8 @@
 <!-- <div align="center">
 </div> -->
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px">
-        <img src="git/firfox1.png" alt="" style="width: 45%;">
-        <img src="git/firfox2.png" alt="" style="width: 45%;">
+<div style="display: flex; gap: 10px">
+        <img src="git/firfox1.png" alt="" style="width: 49%;">
+        <img src="git/firfox2.png" alt="" style="width: 49%;">
     </div>
 
 ## userChrome.css
