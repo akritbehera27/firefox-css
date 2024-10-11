@@ -34,4 +34,4 @@ Hear are some other steps that you can take to make you browser more like mine
 ## Credits
 
 
-Based off [Eric murphy](https://github.com/ericmurphyxyz/userChrome.css.git) and [Betterfox](https://github.com/yokoffing/Betterfox), with additional lines from form non other then [My-self](https://github.com/akritbehera27)
+Based on [Eric murphy](https://github.com/ericmurphyxyz/userChrome.css.git) and [Betterfox](https://github.com/yokoffing/Betterfox), with additional lines [My-self](https://github.com/akritbehera27)
