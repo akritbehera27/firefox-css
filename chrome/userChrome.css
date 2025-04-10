@@ -1,17 +1,16 @@
 /* Base color for the theme, dependent on whether it's a light theme or not */
 @media (prefers-color-scheme: dark) {
     :root {
-       /* --accent-color: #1c1b22; */
         --accent-color: #323138;
     }
 }
 
-@media (prefers-color-scheme: light) {
-    :root {
-        --accent-color: #FAFAFC;
-    }
-}
 /*====== Aesthetics ======*/
+
+menupopup { 
+  --panel-background: #323138 !important;
+  --panel-color: #cbcacd !important;
+}
 
 #navigator-toolbox {
     border-bottom: none !important;
@@ -25,6 +24,11 @@
 toolbar#nav-bar {
     background: var(--accent-color) !important;
     box-shadow: none !important;
+}
+
+
+#TabsToolbar {
+  background-color: #323138 !important;
 }
 
 /* Sets the URL bar color */
@@ -63,7 +67,7 @@ toolbar#nav-bar {
     }
 
     /* Tab bar */
-    #titlebar {
+    #TabsToolbar {
         order: 2;
         width: calc(100vw - var(--navbarWidth) - 1px);
     }
@@ -74,6 +78,10 @@ toolbar#nav-bar {
         width: 100%;
     }
     
+    #toolbar-menubar {
+      order : 4;
+      width: 100%;
+    }
     /* Fix urlbar sometimes being misaligned */
     :root[uidensity="compact"] #urlbar {
         --urlbar-toolbar-height: 39.60px !important;
@@ -100,14 +108,23 @@ toolbar#nav-bar {
 }
 
 /* Remove UI elements */
+
 /* .titlebar-buttonbox-container Minimize, maximize, and close buttons { */
-#identity-box, /* Site information */
-#tracking-protection-icon-container, /* Shield icon */
+/* #identity-box, Site information */
+#tracking-protection-icon-container,  /* Shield icon */
 #page-action-buttons > :not(#urlbar-zoom-button, #star-button-box), /* All url bar icons except for zoom level and bookmarks */
 #urlbar-go-button, /* Search URL magnifying glass */
 #alltabs-button /* Menu to display all tabs at the end of tabs bar */
 {
     display: none !important;
+}
+
+#identity-icon-box {
+  display: none !important;
+}
+
+.titlebar-button.titlebar-close {
+  display: none !important;
 }
 
 #nav-bar {
@@ -152,7 +169,26 @@ toolbar#nav-bar {
     display: none !important;
 }
 
-/* #star-button-box {
-	display: none !important;
-} */
+/* Changing font size of top bar */
 
+#urlbar-container {
+  font-size: 16px;
+}
+
+#TabsToolbar {
+  font-size: 16px;
+}
+
+/* Changing the size of the right click menu so that it does not
+ get mixed with systems top bar*/
+
+#contentAreaContextMenu {
+  max-height: 350px;
+}
+
+/* Editing bookmark menu */
+#bookmarksToolbarFolderMenu,
+#menu_bookmarkAllTabs,
+#menu_searchBookmarks
+{
+  display: none !important;}
