@@ -5,11 +5,6 @@
         <img src="git/firfox2.png" alt="" style="width: 49%;">
     </div>
 
-## userChrome.css
-
-A Firefox stylesheet designed to be mouse-only but not too complicated. Look, I love my keyboard shortcuts just as much as the next person, but there are instances when using the mouse to navigate the browser is more handy.
-
-This theme might not function somewhere else; it has only been tested on my particular configuration. In any case, please submit an issue or pull request if you try it and encounter any problems.
 
 ## Installation
 
