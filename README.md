@@ -1,4 +1,4 @@
-<div style="display: flex; align-content: center; align-items: center; justify-content: center; margin: 10px;">
+<div style="display: flex; align-content: center; align-items: center; justify-content: center; margin: 10px; border-radius: 10px;">
     <img src="firefoxcustom.png">
 </div>
 
