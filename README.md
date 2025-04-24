@@ -1,5 +1,5 @@
-<div style="display: flex; align-content: center; align-items: center; justify-content: center; margin: 10px; border-radius: 10px;">
-    <img src="firefoxcustom.png">
+<div style="display: flex; align-content: center; align-items: center; justify-content: center; margin: 10px;">
+    <img style="border-radius: 7px;" src="firefoxcustom.png">
 </div>
 
 
