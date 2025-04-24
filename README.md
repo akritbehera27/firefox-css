@@ -1,9 +1,6 @@
-<!-- <div align="center">
-</div> -->
-<div style="display: flex; gap: 10px">
-        <img src="git/firfox1.png" alt="" style="width: 49%;">
-        <img src="git/firfox2.png" alt="" style="width: 49%;">
-    </div>
+<div style="display: flex; align-content: center; align-items: center; justify-content: center; margin: 10px;">
+    <img src="firefoxcustom.png">
+</div>
 
 
 ## Installation
